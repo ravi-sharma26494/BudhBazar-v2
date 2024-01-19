@@ -12,6 +12,8 @@
     "@types/node": "^20.11.2",
     "@types/react": "^18.2.48",
     "@types/react-dom": "^18.2.18",
+    "@types/redux-logger": "^3.0.12",
+    "@types/styled-components": "5.1.24",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
     "firebase": "9.6.6",
@@ -30,6 +32,7 @@
     "serverless-http": "^2.7.0",
     "stripe": "^8.210.0",
     "styled-components": "5.3.3",
+    "typed-redux-saga": "1.4.0",
     "typescript": "^5.3.3",
     "web-vitals": "2.1.4"
   },
@@ -56,5 +59,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-plugin-macros": "3.1.0"
   }
 }
